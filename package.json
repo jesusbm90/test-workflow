@@ -1,0 +1,32 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusbm1990/test-workflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesusbm1990/test-workflow/issues"
+  },
+  "homepage": "https://github.com/jesusbm1990/test-workflow#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.7.4",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0"
+  }
+}
